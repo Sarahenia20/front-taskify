@@ -6,7 +6,7 @@ const Sidebar = () => {
   const menuItems = [
     {
       text: "Projects",
-      icon: "icons/project.svg",
+      icon: "icons/grid.svg",
     },
     {
       text: "Tasks",
@@ -21,12 +21,16 @@ const Sidebar = () => {
       icon: "icons/kanban.svg",
     },
     {
-      text: "Employee",
+      text: "Employees",
       icon: "icons/users.svg",
     },
     {
       text: "Role",
       icon: "icons/role.svg",
+    },
+    {
+      text: "Dasboard",
+      icon: "icons/old/pie-chart.svg",
     },
   ];
   return (
